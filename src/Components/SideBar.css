@@ -1,0 +1,69 @@
+.dash-vertical-navigation {
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    box-shadow: 0 0 8px #d7d7d7;
+    top: 0;
+    width: 280px;
+    min-width: 280px;
+    max-width: 280px;
+    height: 100vh;
+    min-height: 100vh;
+    max-height: 100vh;
+    z-index: 200;
+}
+.side-custom-nav li a {
+    list-style: none;
+    text-decoration: none;
+    color: #1b1b1b;
+}
+.side-custom-nav li {
+    padding: 9px 10px;
+    margin-bottom: 2px;
+}
+.side-custom-nav li.active {
+    background: #e3e5fe;
+}
+.side-custom-nav li:hover {
+    background: #e3e5fe;
+}
+/* navbar css */
+.profile-detail img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.user-d-area a {
+    display: flex;
+    align-items: center;
+}
+
+.patient-list li:not(:last-child) {
+    border-bottom: 1px solid #dedede;
+}
+.date-styling .react-date-picker__wrapper {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    width: 100%;
+    padding: 5px 6px;
+}
+.edit-btn {
+    background: #0c9003;
+    border: none;
+    border-radius: 3px;
+    padding: 4px 13px;
+    color: #fff;
+    margin-right: 12px;
+}
+.delete-btn {
+    background: #bf0101;
+    border: none;
+    border-radius: 3px;
+    padding: 4px 13px;
+    color: #fff;
+    margin-right: 12px;
+}
